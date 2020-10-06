@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            android:background="@color/colormargen"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_pelicula1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@drawable/imghombrearania" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            android:background="@color/colorverde"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_pelicula2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@drawable/imgscooby" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_contarvotos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tituloboton"
+            android:background="@color/colorceleste"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:layout_weight="1.5"
+        android:background="@color/colorPrimary"
+        />
+
+
+</LinearLayout>

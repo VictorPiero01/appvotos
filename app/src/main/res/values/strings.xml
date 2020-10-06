@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VOTACIONES</string>
+
+    <string name="tituloboton">RESULTADOS</string>
+
+
+    <string name="ganador1">¡Hombre Araña GANADOR!!</string>
+    <string name="ganador2">¡SCOOBY DO GANADOR !</string>
+</resources>
